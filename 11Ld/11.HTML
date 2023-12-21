@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MathML and SVG</title>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+</head>
+<body>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+            <mi>a</mi>
+            <mn>2</mn>
+        </msup>
+        <mo>=</mo>
+        <msup>
+            <mi>b</mi>
+            <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup>
+            <mi>c</mi>
+            <mn>2</mn>
+        </msup>
+    </math>
+    <br>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+           <mi>e</mi>
+           <mi>x</mi>
+        </msup>
+        <mo>=</mo>
+        <mn>1</mn>
+        <mo>+</mo>
+        <mfrac>
+           <mi>x</mi>
+           <mrow>
+              <mn>1</mn>
+              <mo>!</mo>
+           </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+           <msup>
+              <mi>x</mi>
+              <mn>2</mn>
+           </msup>
+           <mrow>
+              <mn>2</mn>
+              <mo>!</mo>
+           </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+           <msup>
+              <mi>x</mi>
+              <mn>3</mn>
+           </msup>
+           <mrow>
+              <mn>3</mn>
+              <mo>!</mo>
+           </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mo>.</mo>
+        <mo>.</mo>
+        <mo>.</mo>
+        <mo>,</mo>
+        <mo>&#xA0;</mo>
+        <mo>&#xA0;</mo>
+        <mo>&#xA0;</mo>
+        <mo>-</mo>
+        <mo>&#x221E;</mo>
+        <mo>&lt;</mo>
+        <mi>x</mi>
+        <mo>&lt;</mo>
+        <mo>&#x221E;</mo>
+     </math>
+     <br>
+     <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+         <path d="M 0 50 C 18 32, 28 25, 38 23 C 48 25, 58 32, 75 50 C 100 80, 90 50, 100 20 C 75 50, 58 68, 48 75 C 38 77, 28 75 , 18 68 Z" fill="white" stroke="black" stroke-width="2"/>
+         <circle cx="20" cy="50" r="5" fill="white" stroke="black" stroke-width="2"/>
+     </svg>
+</body>
+</html>
